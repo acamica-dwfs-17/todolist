@@ -49,7 +49,7 @@ class Lista {
 
     dibujar() {
         for (let index = 0; index < this.tareas.length; index++) {
-            let html = this.tareas[index].dibujar(index)
+            let html = this.tareas[index].dibujar()
             this.containerTareas.append(html);
         }
 
